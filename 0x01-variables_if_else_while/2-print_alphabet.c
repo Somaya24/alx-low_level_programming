@@ -1,13 +1,16 @@
 #include <stdio.h>
+
 /**
- * main - print the alphabet.
+ * main - Entry point
  *
- * Return : Always 0
+ * Description: print the alphabet
  *
+ * Return: Always 0 (Success)
  */
+
 int main(void)
 {
-	char alp[26] = "abcefghijklmnopqrstuvwxyz";
+	char alp[26] = "abcdefghijklmnopqrstuvwxyz";
 	int i;
 
 	for (i = 0; i < 26; i++)

@@ -3,11 +3,10 @@
 #include <stdio.h>
 
 /**
- * betty_doc
- * main: Print the last digit of a randomly generated number
+ * main -  Prints the last digit of a randomly generated number
  * and whther is greater than 5, less than 6, or 0.
  *
- * Return: Always 0(Success).
+ * Return: Always 0.
  */
 int main(void)
 {

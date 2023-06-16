@@ -1,25 +1,31 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
-/*
+/**
  * main - Entry point
-
-/* betty style doc for function main goes there */
+ *
+ * Return: Always 0 (Success)
+ * betty_doc
+ *
+ */
 int main(void)
 {
 	int n;
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
-	if (n > 0)
+	if
+		(n > 0);
 	{
 		printf("is positive");
 	}
-	if (n == 0)
+	else if
+		(n == 0);
 	{
 		printf("is zero");
 	}
-	if (n < 0)
+	else
+		(n < 0);
 	{
 		printf("is negative");
 	}

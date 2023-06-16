@@ -1,10 +1,9 @@
-#include<stdio.h>
+#include <stdio.h>
 /**
-* main - Entry point
-*
-* Return: Always 0 (Success)
-*
-*/
+ * main - Entry point
+ *
+ * Return: 0 (Success)
+ */
 int main(void)
 {
 	char a;
@@ -18,6 +17,6 @@ int main(void)
 	printf("Size of a float: %lx byte(s)\n", sizeof(c));
 	printf("Size of a long int: %lx byte(s)\n", sizeof(d));
 	printf("Size of a long long int: %lx byte(s)\n", sizeof(e));
-	
-	return (0); 
+
+	return (0);
 }

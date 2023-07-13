@@ -4,16 +4,18 @@
 #include <limits.h>
 
 /**
- * main - check the code
- *
- *Return: Always 0
+ * *malloc_checked - allocates memory using malloc
+ *@b: numer of bytes to allocate
+ *Return: a pointer to the allocated memory
  */
-int main(void)
+void *malloc_checked(unsigned int b)
 {
-	int *n;
+	void *p;
 
-	n = malloc_checked(sizeof(int)* 98);
-	printf("%p\n", (void *)n);
-	free(n);
-	return (0);
+	p = malloc(b);
+
+	if (p == NULL)
+		exit(98);
+
+	return (p);
 }

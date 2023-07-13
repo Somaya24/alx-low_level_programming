@@ -12,7 +12,7 @@ int main(void)
 {
 	int *n;
 
-	n = malloc_checked(98);
+	n = malloc_checked(sizeof(int)* 98);
 	printf("%p\n", (void *)n);
 	free(n);
 	return (0);

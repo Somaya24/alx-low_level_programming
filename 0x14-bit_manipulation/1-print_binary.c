@@ -3,7 +3,7 @@
 
 /**
  * print_binary - prints a number as binary string
- * @n; rhe number to print
+ * @n: the number to print
  *
  * return: void
  */

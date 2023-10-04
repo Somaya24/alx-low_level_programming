@@ -1,7 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include "main.h"
-define READ_BUF_SIZE 1024
 
 /**
  * read_textfile - reads text from a file and prints it
